@@ -194,7 +194,7 @@ order by 3 desc
 -	**OutPut:**
 
 <p align="center">
-  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc5_output.jpg" height="90">
+  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc5_output.jpg" height="130">
 </p>
 
 -	**Visualization and Insights:**
