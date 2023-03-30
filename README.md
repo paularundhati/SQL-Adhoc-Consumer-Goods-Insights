@@ -194,7 +194,7 @@ order by 3 desc
 -	**OutPut:**
 
 <p align="center">
-  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc5_output.jpg" height="90">
+  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc5_output.jpg" height="200">
 </p>
 
 -	**Visualization and Insights:**
@@ -272,7 +272,7 @@ ORDER BY sales.fiscal_year, EXTRACT(MONTH FROM date)
 -	**OutPut:**
 
 <p align="center">
-  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc7_output.jpg" height="400">
+  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc7_output.jpg" height="450">
 </p>
 
 -	**Visualization and Insights:**
@@ -312,7 +312,7 @@ order by 2 desc
 -	**OutPut:**
 
 <p align="center">
-  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc8_output.jpg" height="200">
+  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc8_output.jpg" height="150">
 </p>
 
    
