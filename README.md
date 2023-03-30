@@ -194,13 +194,13 @@ order by 3 desc
 -	**OutPut:**
 
 <p align="center">
-  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc5_output.jpg" height="150">
+  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc5_output.jpg" height="90">
 </p>
 
 -	**Visualization and Insights:**
 
 <p align="center">
-  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc5_visual.jpg" height="250">
+  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc5_visual.jpg" height="320">
 </p>
 
 -	"AQ Master wired x1 Ms"  has the lowest manufacturing cost of 1.
@@ -235,7 +235,7 @@ limit 5
 -	**Visualization and Insights:**
 
 <p align="center">
-  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc6_visual.jpg" height="250">
+  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc6_visual.jpg" height="350">
 </p>
 
 -	Flipkart has the highest average discount percentage (30.83%) while Amazon has the lowest (29.33%).
