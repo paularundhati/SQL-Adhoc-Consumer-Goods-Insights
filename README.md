@@ -62,7 +62,7 @@ where lower(customer) like '%atliq exclusive%'
 and region ='APAC'
 order by 1
 ```
-<u>**OutPut:**<\u>
+<u>**OutPut:**</u>
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc1-output.jpg" height="250">
 </p>
