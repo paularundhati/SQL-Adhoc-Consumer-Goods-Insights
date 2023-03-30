@@ -75,6 +75,7 @@ order by 1
 - APAC region contains 10 markets. Out of those 10 markets, Atliq Exclusive operates on 8 markets, except - Pakistan and China.
 
 
+
 ### **Adhoc 2:** What is the percentage of unique product increase in 2021 vs. 2020? The final output contains these fields, unique_products_2020     unique_products_2021      percentage_chg
 
 ```sql
@@ -104,6 +105,8 @@ from
 
 -	A 36.33% jump in unique product in 2021 shows that Atliq Hardwares wants to offer a diversified range of products from which their customers can choose from.
 
+
+
 ### **Adhoc 3:** Provide a report with all the unique product counts for each segment and sort them in descending order of product counts. The final output contains 2 fields, segment     product_count 
 
 
@@ -116,7 +119,7 @@ order by 2 desc
 ```
 -	**OutPut:**
 <p align="center">
-  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc3_output.jpg" height="300">
+  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc3_output.jpg" height="200">
 </p>
 
 
@@ -130,6 +133,8 @@ order by 2 desc
 -	“Peripherals” being the third suggests that company specializes producing components for computer assembly.
 
 __Note__ : Atliq Hardware should expand into areas with fewer products to address gaps in their product line and meet customer needs.
+
+
 
 ### **Adhoc 4:** Follow-up: Which segment had the most increase in unique products in 2021 vs 2020? The final output contains these fields,    segment     product_count_2020 product_count_2021    difference
 
@@ -170,6 +175,8 @@ order by 4 desc
 
 -	“Notebook” and “Peripherals” has the 2nd highest increase, reflecting a demand for laptops for both personal and business use and computer components for cost-effective upgrades or DIY builds.
 
+
+
 ### **Adhoc 5:** Get the products that have the highest and lowest manufacturing costs. The final output should contain these fields,      product_code        product    manufacturing_cost
 
 ```sql
@@ -203,6 +210,7 @@ order by 3 desc
 __Note__ : Atliq Hardwares should explore ways to reduce manufacturing costs to increase competitiveness by offering products at a lower price than competitors.
 
 
+
 ### **Adhoc 6:** Generate a report which contains the top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the Indian market. The final output contains these fields,     customer_code    customer average_discount_percentage
 
 ```select
@@ -220,7 +228,7 @@ limit 5
 -	**OutPut:**
 
 <p align="center">
-  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc6_output.jpg" height="400">
+  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc6_output.jpg" height="200">
  
 </p>
 
@@ -239,6 +247,7 @@ limit 5
     4. The high demand of its audience for hardware products.
 
 __Note__ : Atliq Hardwares should optimize pricing and discount strategies and negotiate more effectively with customers to maximize profitability and customer satisfaction.
+
 
 
 ### **Adhoc 7:** Get the complete report of the Gross sales amount for the customer “Atliq Exclusive” for each month . This analysis helps to get an idea of low and high-performing months and take strategic decisions. The final report contains these columns:     Month    Year     Gross sales Amount
@@ -263,7 +272,7 @@ ORDER BY sales.fiscal_year, EXTRACT(MONTH FROM date)
 -	**OutPut:**
 
 <p align="center">
-  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc7_output.jpg" height="200">
+  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc7_output.jpg" height="400">
 </p>
 
 -	**Visualization and Insights:**
@@ -279,6 +288,7 @@ ORDER BY sales.fiscal_year, EXTRACT(MONTH FROM date)
 __Note__ : 1. Atliq Hardwares can optimize sales revenue by targeting peak holiday periods and taking advantage of post-holiday demand. 
 
 2. They should also adjust their marketing strategies for lower-performing months like April to remain competitive.
+
 
 
 ### **Adhoc 8:** In which quarter of 2020, got the maximum total_sold_quantity? The final output contains these fields sorted by the total_sold_quantity,     Quarter total_sold_quantity
@@ -323,6 +333,7 @@ __Note__ : 1. Optimizing sales strategy during Q1 and Q2 is crucial for revenue 
 3. During uncertain times such as Q3 and the pandemic, the company needs to be flexible and explore new ways to sell their products and continue reaching customers.
 
 
+
 ### **Adhoc 9:** Which channel helped to bring more gross sales in the fiscal year 2021 and the percentage of contribution? The final output contains these fields,          channel  gross_sales_mln         percentage
 
 ```sql
@@ -353,13 +364,13 @@ order by (gross_sales_mln/total_sales) desc
 -	**OutPut:**
 
 <p align="center">
-  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc9_output.jpg" height="150">
+  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc9_output.jpg" height="200">
 </p>
 
 -	**Visualization and Insights:**
 
 <p align="center">
-  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc9_visual.jpg" height="400">
+  <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc9_visual.jpg" height="200">
 </p>
 
 -	73% sales are coming through physical or online stores.
@@ -369,6 +380,7 @@ order by (gross_sales_mln/total_sales) desc
 -	11% is from the intermediaries between the manufacturer and the end consumer.
 
 __Note__ : Atliq Hardwares should continue to invest in D2C that would help rely less on retail thereby assisting with larger sales margin.
+
 
 
 ### **Adhoc 10:**  Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021? The final output contains these fields,     division     product_code    product     total_sold_quantity      rank_order 
