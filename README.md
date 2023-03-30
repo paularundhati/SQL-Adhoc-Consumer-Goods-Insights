@@ -218,7 +218,8 @@ __Note__ : Atliq Hardwares should explore ways to reduce manufacturing costs to 
 
 ### **Adhoc 6:** Generate a report which contains the top 5 customers who received an average high pre_invoice_discount_pct for the fiscal year 2021 and in the Indian market. The final output contains these fields,     customer_code    customer average_discount_percentage
 
-```select
+```sql
+select
 cstmr.customer_code
 ,customer
 ,concat(round(avg(pre_invoice_discount_pct)*100,2),'%') as average_discount_percentage
