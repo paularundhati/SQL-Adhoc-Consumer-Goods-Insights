@@ -62,12 +62,12 @@ where lower(customer) like '%atliq exclusive%'
 and region ='APAC'
 order by 1
 ```
-<u>**OutPut:**</u>
+**Output:**
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc1-output.jpg" height="250">
 </p>
 
--	**Visualization and Insights:**
+**Visualization and Insights:**
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc1_visual.jpg" height="400">
 </p>
@@ -89,14 +89,14 @@ from
  from fact_sales_monthly
 ) as src
 ```
--	**OutPut:**
+**Output:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc2_output.jpg" height="80">
 </p>
 
 
--	**Visualization and Insights:**
+**Visualization and Insights:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc_2_visual.jpg" height="400">
@@ -117,13 +117,13 @@ from dim_product
 group by 1
 order by 2 desc
 ```
--	**OutPut:**
+**Output:**
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc3_output.jpg" height="200">
 </p>
 
 
--	**Visualization and Insights:**
+**Visualization and Insights:**
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc_3_visual.jpg" height="400">
 </p>
@@ -157,13 +157,13 @@ from
 ) as src
 order by 4 desc
 ```
--	**OutPut:**
+**Output:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc4_output.jpg" height="200">
 </p>
 
--	**Visualization and Insights:**
+**Visualization and Insights:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc4_visual.jpg" height="400">
@@ -191,13 +191,13 @@ where manufacturing_cost in (select max(manufacturing_cost) from fact_manufactur
       or manufacturing_cost in (select min(manufacturing_cost) from fact_manufacturing_cost)
 order by 3 desc
 ```
--	**OutPut:**
+**Output:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc5_output.jpg" height="120">
 </p>
 
--	**Visualization and Insights:**
+**Visualization and Insights:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc5_visual.jpg" height="320">
@@ -225,14 +225,14 @@ group by 1,2
 order by avg(pre_invoice_discount_pct) desc 
 limit 5 
 ```
--	**OutPut:**
+**Output:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc6_output.jpg" height="200">
  
 </p>
 
--	**Visualization and Insights:**
+**Visualization and Insights:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc6_visual.jpg" height="350">
@@ -269,13 +269,13 @@ where customer_code in ('70002017','70003181','70004069',
 group by TO_CHAR(date, 'Month'),EXTRACT(MONTH FROM date),sales.fiscal_year
 ORDER BY sales.fiscal_year, EXTRACT(MONTH FROM date)
 ```
--	**OutPut:**
+**Output:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc7_output.jpg" height="450">
 </p>
 
--	**Visualization and Insights:**
+**Visualization and Insights:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc7_visual.jpg" height="400">
@@ -309,14 +309,14 @@ where fiscal_year = 2020) as src
 group by 1
 order by 2 desc
 ```
--	**OutPut:**
+**Output:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc8_output.jpg" height="200">
 </p>
 
    
--	**Visualization and Insights:**
+**Visualization and Insights:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc8_visual.jpg" height="400">
@@ -361,13 +361,13 @@ channel
 from src1,src2
 order by (gross_sales_mln/total_sales) desc
 ```
--	**OutPut:**
+**Output:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc9_output.jpg" height="150">
 </p>
 
--	**Visualization and Insights:**
+**Visualization and Insights:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc9_visual.jpg" height="200">
@@ -411,13 +411,13 @@ select
 * from src2
 where rank_order <= 3
 ```
--	**OutPut:**
+**Output:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc10_output.jpg" height="300">
 </p>
 
--	**Visualization and Insights:**
+**Visualization and Insights:**
 
 <p align="center">
   <img src="https://github.com/paularundhati/SQL-Adhoc-Consumer-Goods-Insights/blob/master/Results-screenshots/adhoc10_visual.jpg" height="300">
