@@ -3,7 +3,7 @@
 
 Codebasics Challenge Link : [Link](https://codebasics.io/challenge/codebasics-resume-project-challenge)
 
-Linkedin Presentation Link : [Link]()
+Linkedin Presentation Link : [Link](https://www.linkedin.com/posts/arundhati-paul_consumer-goods-analysis-using-sql-and-visualization-activity-7047429276312207360-GaqE?utm_source=share&utm_medium=member_desktop)
 
 ## Table of Contents
 
